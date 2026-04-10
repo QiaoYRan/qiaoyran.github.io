@@ -4,31 +4,28 @@ source "https://rubygems.org"
 # String#tainted? (removed in Ruby 3.2+). Loading this shim from the Gemfile fixes bundle exec jekyll.
 load File.expand_path("_plugins/liquid_taint_compat.rb", __dir__) if File.exist?(File.expand_path("_plugins/liquid_taint_compat.rb", __dir__))
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+# ------------------------------------------------------------------------------
+# Jekyll stack (GitHub Pages)
 #
-#     bundle exec jekyll serve
+# `github-pages` pins a compatible set: jekyll, kramdown, liquid, jekyll-sass-converter, etc.
+# Do not add a separate `gem "jekyll"` with a different version — it will conflict.
 #
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+# _config.yml plugins are satisfied by github-pages; the :jekyll_plugins group below duplicates
+# a few so `bundle exec` loads them in dev and matches your explicit plugin list.
+# ------------------------------------------------------------------------------
 
 gem "github-pages", group: :jekyll_plugins
 
-# Ruby 3+ no longer bundles webrick; jekyll serve needs it for the local preview server.
+# Ruby 3+ does not include webrick; required for `jekyll serve` locally (harmless on CI build).
 gem "webrick"
-
-# If you want to use Jekyll native, uncomment the line below.
-# To upgrade, run `bundle update`.
-
-# gem "jekyll"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem 'jekyll-sitemap'
-  gem 'hawkins'
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  # Local live reload; optional — remove if it ever breaks CI native extension builds
+  gem "hawkins"
 end

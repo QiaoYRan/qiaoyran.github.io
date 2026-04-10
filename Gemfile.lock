@@ -278,6 +278,8 @@ DEPENDENCIES
   github-pages
   hawkins
   jekyll-feed
+  jekyll-paginate
+  jekyll-redirect-from
   jekyll-sitemap
   webrick
 
