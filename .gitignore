@@ -1,3 +1,7 @@
 _site/
 push.sh
 .DS_Store
+
+# Local Ruby gems (bundle config set path vendor/bundle)
+vendor/bundle/
+.bundle/
