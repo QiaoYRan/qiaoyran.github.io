@@ -234,7 +234,9 @@
   }
 
   li {
-    white-space: nowrap;
+    /* nowrap was forcing the sidebar wider than the grid column and overlapping main content */
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   a {
