@@ -1,4 +1,4 @@
-{% if page.analytics != false %}
+{% if page.analytics != false and site.google_analytics_id and site.google_analytics_id != "" %}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
@@ -8,6 +8,25 @@
   gtag('js', new Date());
 
   gtag('config', "{{ site.google_analytics_id }}");
+
+  {% if site.click_analytics != false %}
+  /* Site-wide link clicks → GA4: Reports → Engagement → Events (link_click); Explore for link_url, link_text, outbound */
+  document.addEventListener('click', function (e) {
+    var a = e.target && e.target.closest && e.target.closest('a[href]');
+    if (!a || typeof gtag !== 'function') return;
+    var href = a.getAttribute('href') || '';
+    if (href === '' || href.indexOf('#') === 0) return;
+    var text = (a.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 120);
+    var host = '';
+    try { host = new URL(a.href, window.location.href).hostname; } catch (err) { return; }
+    gtag('event', 'link_click', {
+      link_url: a.href,
+      link_text: text || '(no text)',
+      link_id: a.id || undefined,
+      outbound: host !== window.location.hostname
+    });
+  }, true);
+  {% endif %}
 </script>
 
 {% endif %}
