@@ -1,0 +1,17 @@
+{% if site.clustrmaps_src and site.clustrmaps_src != "" %}
+{% assign _visitor_map_id = 'clustrmaps' %}
+{% if site.clustrmaps_src contains 'mapmyvisitors' %}
+  {% assign _visitor_map_id = 'mapmyvisitors' %}
+{% endif %}
+<script>
+(function () {
+  var mount = document.getElementById('visitor-map-mount');
+  if (!mount) return;
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.id = {{ _visitor_map_id | jsonify }};
+  s.src = {{ site.clustrmaps_src | jsonify }};
+  mount.appendChild(s);
+})();
+</script>
+{% endif %}

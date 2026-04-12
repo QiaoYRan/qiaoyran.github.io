@@ -1,5 +1,6 @@
 {% if site.clustrmaps_src and site.clustrmaps_src != "" %}
-  <div class="visitor-map" aria-label="Visitor map">
-    <script type="text/javascript" id="clustrmaps" src="{{ site.clustrmaps_src }}"></script>
-  </div>
+<section class="visitor-map-section" aria-labelledby="visitor-map-heading">
+  <h2 id="visitor-map-heading" class="visitor-map-section__title">🗺️ Visitors</h2>
+  <div id="visitor-map-mount" class="visitor-map visitor-map--compact"></div>
+</section>
 {% endif %}

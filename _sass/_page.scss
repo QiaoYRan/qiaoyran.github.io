@@ -16,6 +16,40 @@
   }
 }
 
+/* Visitor map: same column as .page content, compact strip like ClustrMaps embed */
+.visitor-map-section {
+  clear: both;
+  margin-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.visitor-map-section__title {
+  margin-top: 1em;
+  margin-bottom: 0.65em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $border-color;
+  font-size: $type-size-3;
+  font-family: $sans-serif-narrow;
+}
+
+.visitor-map--compact {
+  max-width: 34rem;
+  margin: 0 auto;
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* Keep map strip shallow (~2:1 like typical ClustrMaps); tweak rem if your widget clips */
+.visitor-map--compact iframe {
+  max-width: 100% !important;
+  max-height: 17rem !important;
+}
+
+.visitor-map--compact .mapmyvisitors-map-container,
+.visitor-map--compact #mapmyvisitors-widget {
+  max-width: 100% !important;
+}
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);

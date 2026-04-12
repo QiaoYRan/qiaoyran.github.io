@@ -13,12 +13,6 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  .visitor-map {
-    margin-top: 1.25em;
-    max-width: 100%;
-    overflow: hidden;
-  }
-
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;

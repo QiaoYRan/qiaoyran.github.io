@@ -16,8 +16,8 @@ google_analytics_id      :  # get google_analytics_id from https://analytics.goo
 # 是否在 GA4 里上报站内/站外链接点击（自定义事件 link_click）；不需要可设为 false
 click_analytics          : true
 
-# 侧边栏「访客地图」（ClustrMaps）：在 https://clustrmaps.com/add 注册站点后，把官方给的 <script src="..."> 里整段 URL 贴到下面（含 https: 或 // 均可）
-# 留空则不显示该模块
+# 侧边栏访客地图：MapMyVisitors / ClustrMaps 官方 <script id="mapmyvisitors" src="..."> 里的 **src 整段 URL**（// 或 https: 均可，须与官网一致）
+# 留空则不显示。注意 MapMyVisitors 的 script 必须是 id="mapmyvisitors"，不要改 id。
 clustrmaps_src           : "//mapmyvisitors.com/map.js?d=0-2voMVDCImimWnUWraVky-YbU-McS0aF0w2Sopx6EI&cl=ffffff&w=a"
 
 # SEO Related
