@@ -25,6 +25,7 @@ I am always looking for new collaborations and Ph.D. research internship opportu
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2026.05*: &nbsp;🎉🎉 One paper is accepted by KDD 2026.
 - *2026.04*: &nbsp;🎉🎉 One paper is accepted by SIGIR 2026.
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by IEEE TKDE.
 - *2026.03*: &nbsp;🎉🎉 Starting my visit at IRLab, UvA.
@@ -34,6 +35,9 @@ I am always looking for new collaborations and Ph.D. research internship opportu
 <span class='anchor' id='publications'></span>
 # 📝 Publications 
 (* Equal contribution)
+
+<span class="venue-badge">KDD 2026</span>Outsmarting the Chameleon: Counterfactual Decoupling for
+Tactical OOD Shifts in Live Streaming Risk Assessment. [Paper]
 
 <span class="venue-badge">SIGIR 2026</span>Deja Vu in Plots: Leveraging Cross-Session Evidence with
 Retrieval-Augmented LLMs for Live Streaming Risk Assessment. [[Paper]](https://arxiv.org/pdf/2601.16027)
