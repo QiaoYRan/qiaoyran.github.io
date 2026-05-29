@@ -30,7 +30,7 @@ I am always looking for new collaborations and Ph.D. research internship opportu
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by IEEE TKDE.
 - *2026.03*: &nbsp;🎉🎉 Starting my visit at IRLab, UvA.
 - *2025.11*: &nbsp;🎉🎉 One paper is accepted by KDD 2026.
-- *2024.12*: &nbsp;🎉🎉 One paper is accepted by AAAI 2025.
+
   
 <span class='anchor' id='publications'></span>
 # 📝 Publications 
@@ -39,6 +39,7 @@ I am always looking for new collaborations and Ph.D. research internship opportu
 <span class="venue-badge">KDD 2026</span>Outsmarting the Chameleon: Counterfactual Decoupling for
 Tactical OOD Shifts in Live Streaming Risk Assessment. [Paper]
 <span style="color: #2c3e50; font-weight: bold;">
+
 Yiran Qiao</span>, Jing Chen, Jiaqi Xu, Yang Liu, Qiwei Zhong, Xiang Ao.
 
 <span class="venue-badge">SIGIR 2026</span>Deja Vu in Plots: Leveraging Cross-Session Evidence with
