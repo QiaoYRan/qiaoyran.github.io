@@ -77,5 +77,5 @@ Xiang Ao, <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Ni
 <span class='anchor' id='experiences-internships'></span>
 # 💻 Experiences & Internships
 - *2026.03 - (now)*, Visiting Researcher at IRLab, University of Amsterdam, Netherlands.
-- *2025.04 - 2026.02*, Research Intern at ByteDance, China.
+- *2025.04 - 2026.02*, Research Intern  (Jindouyun Talent Program) at ByteDance, China.
 - *2024.04 - 2025.03*, Research Intern at Ant Group, China.
