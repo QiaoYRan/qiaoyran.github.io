@@ -25,6 +25,7 @@ I am always looking for new collaborations and Ph.D. research internship opportu
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- *2026.06*: &nbsp;🎉🎉 One paper is accepted by ACM TIST.
 - *2026.05*: &nbsp;🎉🎉 One paper is accepted by KDD 2026.
 - *2026.04*: &nbsp;🎉🎉 One paper is accepted by SIGIR 2026.
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by IEEE TKDE.
