@@ -25,12 +25,12 @@ I am always looking for new collaborations and Ph.D. research internship opportu
 
 <span class='anchor' id='news'></span>
 # 🔥 News
+- 🚀 I am expected to graduate in 2027.6 and actively seeking job opportunities.
+- *2026.08*: &nbsp;🎉🎉 Two papers are accepted by EMNLP 2026 and ICDM 2026.
 - *2026.06*: &nbsp;🎉🎉 One paper is accepted by ACM TIST.
 - *2026.05*: &nbsp;🎉🎉 One paper is accepted by KDD 2026.
 - *2026.04*: &nbsp;🎉🎉 One paper is accepted by SIGIR 2026.
-- *2026.03*: &nbsp;🎉🎉 One paper is accepted by IEEE TKDE.
-- *2026.03*: &nbsp;🎉🎉 Starting my visit at IRLab, UvA.
-- *2025.11*: &nbsp;🎉🎉 One paper is accepted by KDD 2026.
+
 
   
 <span class='anchor' id='publications'></span>
@@ -38,24 +38,23 @@ I am always looking for new collaborations and Ph.D. research internship opportu
 (* Equal contribution)
 
 <span class="venue-badge">KDD 2026</span>Outsmarting the Chameleon: Counterfactual Decoupling for
-Tactical OOD Shifts in Live Streaming Risk Assessment. [Paper]
+Tactical OOD Shifts in Live Streaming Risk Assessment. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3770855.3818084) [[Code]](https://github.com/bytedance/LPCD) [[Dataset]](https://huggingface.co/datasets/ByteDance/LiveStreamingRiskControl)
 
 <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Jing Chen, Jiaqi Xu, Yang Liu, Qiwei Zhong, Xiang Ao.
 
 <span class="venue-badge">SIGIR 2026</span>Deja Vu in Plots: Leveraging Cross-Session Evidence with
-Retrieval-Augmented LLMs for Live Streaming Risk Assessment. [[Paper]](https://arxiv.org/pdf/2601.16027)
+Retrieval-Augmented LLMs for Live Streaming Risk Assessment. [[Paper]](https://arxiv.org/pdf/2601.16027) 
 
 <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Xiang Ao, Jing Chen, Yang Liu, Qiwei Zhong, Qing He.
 
 
-<span class="venue-badge">IEEE TKDE</span>Passing on Wisdom: LLM-driven Cascaded Knowledge Distillation for Sequential Recommendation.
-[[Paper]](https://ieeexplore.ieee.org/abstract/document/11442673)
-
-Xiang Ao, <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Ningtao Wang, Xing Fu, Yang Liu, Thapana Boonchoo, Weiqiang Wang, Qing He, Xueqi Cheng. 
-
 <span class="venue-badge">KDD 2026</span>Live or Lie: Action-Aware Capsule Multiple Instance Learning for Risk Assessment in Live Streaming Platforms. [[Paper]](https://arxiv.org/pdf/2602.03520) [[Code]](https://github.com/bytedance/AC-MIL) [[Dataset]](https://huggingface.co/datasets/ByteDance/LiveStreamingRiskControl)
 
  <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Jing Chen, Xiang Ao, Qiwei Zhong, Yang Liu, Qing He. 
+
+<span class="venue-badge">EMNLP 2026</span>LiveSim: Simulating Environment-Shaped Users in Multi-Agent Live-Stream Ecosystems [Paper]
+
+Jiaqi Xu<sup>*</sup>, <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao<sup>*</sup></span>, Jing Chen, Qiwei Zhong, Xiang Ao, and Xueqi Cheng.
 
 <span class="venue-badge">WSDM 2025</span>LOGIN: A Large Language Model Consulted Graph Neural Network Training Framework. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3701551.3703488) 
 
@@ -68,6 +67,22 @@ Xiang Ao, <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Ni
 <span class="venue-badge">ICDM 2024</span>Financial Risk Assessment via Long-term Payment Behavior Sequence Folding. [[Paper]](https://arxiv.org/pdf/2411.15056) 
 
 <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Yateng Tang, Xiang Ao, Qi Yuan, Ziming Liu, Chen Shen, Xuehao Zheng. 
+
+<span class="venue-badge">IEEE TKDE</span>Passing on Wisdom: LLM-driven Cascaded Knowledge Distillation for Sequential Recommendation.
+[[Paper]](https://ieeexplore.ieee.org/abstract/document/11442673)
+
+Xiang Ao, <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Ningtao Wang, Xing Fu, Yang Liu, Thapana Boonchoo, Weiqiang Wang, Qing He, Xueqi Cheng. 
+
+<span class="venue-badge">ACM TIST</span>LOGIN: A Large Language Model Consulted Graph Neural Network Training Framework. [Paper]
+
+<span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Xiang Ao, Yang Liu, Jiarong Xu, Xiaoqian Sun, Qing He. 
+
+<span class="venue-badge">ICDM 2026</span>User Representation via Cross Multi-source Behavior Pre-training for Mobile Games [Paper]
+
+Chengqi Yang, <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Feng Liu, Xingyu Lou, Zijun Zhou, Xiaoyun Mo, Changwang Zhang, Jiayuan Xu, Jun Wang, and Xiang Ao.
+
+
+
 
 <span class='anchor' id='education'></span>
 # 📖 Educations
