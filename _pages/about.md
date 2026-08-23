@@ -94,3 +94,9 @@ Chengqi Yang, <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>
 - *2026.03 - (now)*, Visiting Researcher at IRLab, University of Amsterdam, Netherlands.
 - *2025.04 - 2026.02*, Research Intern  (Jindouyun Talent Program) at ByteDance, China.
 - *2024.04 - 2025.03*, Research Intern at Ant Group, China.
+
+<span class='anchor' id='services'></span>
+# 💝 Services
+- Reviewer: KDD 2026, SIGIR 2026, EMNLP 2026, ICDM 2026, WSDM 2025, AAAI 2025, ACM TIST 2025.
+- Program Committee / Conference Reviewer:  AAAI 2026/2027, WWW 2025/2026, KDD 2024/2026, SIGIR 2026, ICDM 2026, WSDM 2027.
+  
