@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a fourth-year Ph.D. student at the **Institute of Computing Technology, Chinese Academy of Sciences (CAS)**, advised by [Prof. Xiang Ao](https://aoxaustin.github.io/). Currently, I am visiting **IRLab, University of Amsterdam (UvA)**, working with [Prof. Maarten de Rijke](https://staff.fnwi.uva.nl/m.derijke/). Before my doctoral studies, I received my B.Eng. degree in Electronic Engineering from **Tsinghua University** in 2022.
+I am a final-year Ph.D. student at the **Institute of Computing Technology, Chinese Academy of Sciences (CAS)**, advised by [Prof. Xiang Ao](https://aoxaustin.github.io/). Currently, I am visiting **IRLab, University of Amsterdam (UvA)**, working with [Prof. Maarten de Rijke](https://staff.fnwi.uva.nl/m.derijke/). Before my doctoral studies, I received my B.Eng. degree in Electronic Engineering from **Tsinghua University** in 2022.
 
 My research focuses on **LLM-augmented user modeling** and its applications in **risk assessment** and **recommendation**. I am particularly interested in bridging the gap between Large Language Models and dynamic user behavioral data streams.
 
-I am always looking for new collaborations and Ph.D. research internship opportunities. Please feel free to contact me!
+I am looking for new collaborations and job opportunities. Please feel free to contact me.
 
 <span class='anchor' id='news'></span>
 # 🔥 News
@@ -52,7 +52,7 @@ Retrieval-Augmented LLMs for Live Streaming Risk Assessment. [[Paper]](https://a
 
  <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao</span>, Jing Chen, Xiang Ao, Qiwei Zhong, Yang Liu, Qing He. 
 
-<span class="venue-badge">EMNLP 2026</span>LiveSim: Simulating Environment-Shaped Users in Multi-Agent Live-Stream Ecosystems [Paper]
+<span class="venue-badge">EMNLP 2026</span>LiveSim: Simulating Environment-Shaped Users in Multi-Agent Live-Stream Ecosystems [[Paper]](https://arxiv.org/pdf/2608.26849)
 
 Jiaqi Xu<sup>*</sup>, <span style="color: #2c3e50; font-weight: bold;">Yiran Qiao<sup>*</sup></span>, Jing Chen, Qiwei Zhong, Xiang Ao, and Xueqi Cheng.
 
